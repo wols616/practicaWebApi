@@ -1,0 +1,291 @@
+[
+  {
+    "ContainingType": "bibliotecaWebApiPractica.Controllers.AutorController",
+    "Method": "ActualizarAutor",
+    "RelativePath": "api/Autor/actualizar/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "autorModificar",
+        "Type": "bibliotecaWebApiPractica.Models.Autor",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "bibliotecaWebApiPractica.Controllers.AutorController",
+    "Method": "GuardarAutor",
+    "RelativePath": "api/Autor/Add",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "autor",
+        "Type": "bibliotecaWebApiPractica.Models.Autor",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "bibliotecaWebApiPractica.Controllers.AutorController",
+    "Method": "AutorTieneLibros",
+    "RelativePath": "api/Autor/AutorTieneLibros/{autorId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "autorId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "bibliotecaWebApiPractica.Controllers.AutorController",
+    "Method": "CountBooksByAuthor",
+    "RelativePath": "api/Autor/CountBooksByAuthor",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "bibliotecaWebApiPractica.Controllers.AutorController",
+    "Method": "EliminarAutor",
+    "RelativePath": "api/Autor/eliminar/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "bibliotecaWebApiPractica.Controllers.AutorController",
+    "Method": "Get",
+    "RelativePath": "api/Autor/GetAll",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "bibliotecaWebApiPractica.Controllers.AutorController",
+    "Method": "Get",
+    "RelativePath": "api/Autor/GetById/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "bibliotecaWebApiPractica.Controllers.AutorController",
+    "Method": "GetMasPublicados",
+    "RelativePath": "api/Autor/GetMasPublicados",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "bibliotecaWebApiPractica.Controllers.AutorController",
+    "Method": "PrimerLibro",
+    "RelativePath": "api/Autor/PrimerLibro",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "autorId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "bibliotecaWebApiPractica.Controllers.LibroController",
+    "Method": "ActualizarLibro",
+    "RelativePath": "api/Libro/actualizar/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "libroModificar",
+        "Type": "bibliotecaWebApiPractica.Models.Libro",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "bibliotecaWebApiPractica.Controllers.LibroController",
+    "Method": "GuardarLibro",
+    "RelativePath": "api/Libro/Add",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "libro",
+        "Type": "bibliotecaWebApiPractica.Models.Libro",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "bibliotecaWebApiPractica.Controllers.LibroController",
+    "Method": "CantLibrosPorAnio",
+    "RelativePath": "api/Libro/CantLibrosPorAnio",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "bibliotecaWebApiPractica.Controllers.LibroController",
+    "Method": "EliminarLibro",
+    "RelativePath": "api/Libro/eliminar/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "bibliotecaWebApiPractica.Controllers.LibroController",
+    "Method": "GetAfterYear",
+    "RelativePath": "api/Libro/GetAfterYear/{year}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "year",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "bibliotecaWebApiPractica.Controllers.LibroController",
+    "Method": "Get",
+    "RelativePath": "api/Libro/GetAll",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "bibliotecaWebApiPractica.Controllers.LibroController",
+    "Method": "GetBTitle",
+    "RelativePath": "api/Libro/GetBTitle/{titulo}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "titulo",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "bibliotecaWebApiPractica.Controllers.LibroController",
+    "Method": "Get",
+    "RelativePath": "api/Libro/GetById/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "bibliotecaWebApiPractica.Controllers.LibroController",
+    "Method": "GetLibrosRecientes",
+    "RelativePath": "api/Libro/GetLibrosRecientes",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "bibliotecaWebApiPractica.Controllers.WeatherForecastController",
+    "Method": "Get",
+    "RelativePath": "WeatherForecast",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[bibliotecaWebApiPractica.WeatherForecast, bibliotecaWebApiPractica, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "EndpointName": "GetWeatherForecast"
+  }
+]
